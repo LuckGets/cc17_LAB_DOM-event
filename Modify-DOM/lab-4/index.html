@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab-04</title>
+
+  <style>
+    .active {
+      background-color: red;
+    }
+
+  </style>
+</head>
+<body>
+
+  <button class="btn">Submit</button>
+  <button class="second-btn">Submit-2</button>
+
+
+
+  <script>
+    const firstButton = document.querySelector('.btn')
+    const secondButton = document.querySelector('.second-btn')
+    setInterval(() => firstButton.classList.toggle('active'), 3000);
+    // setTimeout(() => firstButton.classList.toggle('active'), 6000);
+    setTimeout(() => secondButton.style.backgroundColor = 'red', 3000);
+    setTimeout(() => secondBuIntervalyle.backgroundColor = 'white', 6000);
+
+  </script>
+</body>
+</html>

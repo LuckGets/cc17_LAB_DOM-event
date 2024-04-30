@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab-02</title>
+</head>
+<body>
+  <ul>
+
+  </ul>
+
+  <script>
+    // let input = prompt('Please insert list: ')
+    // const ul = document.querySelector('ul')
+    // let createLi;
+    // do {
+    //   if (input === null || input === "") break;
+    //   createLi = document.createElement('li');
+    //   createLi.innerText = input;
+    //   ul.append(createLi);
+    //   input = prompt('Plaese insert list: ')
+    // } while(true)
+
+    while(true) {
+      const text = propmt('Please insert list: ')
+      if (!text || !text.trim()) break;
+      const li = document.createElement('li')
+      li.innerText = text;
+      ul.append(li)
+    }
+
+  </script>
+</body>
+</html>
